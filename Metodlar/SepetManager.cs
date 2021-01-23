@@ -8,7 +8,7 @@ namespace Metodlar
     {
         public void Ekle(Urun urun)
         {
-            Console.WriteLine("Bravo. Sepete eklendi : " + urun.Adi);
+            Console.WriteLine("Müşteri eklendi, kolay gelsin : " + urun.Adi);
 
         }
 
