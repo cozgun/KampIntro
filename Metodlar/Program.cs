@@ -32,7 +32,14 @@ namespace Metodlar
 
             }
 
+            Console.WriteLine("------Metodlar------");
+            //aşağıda instance oluşturuyoruz
+            SepetManager sepetManager = new SepetManager();
+            sepetManager.Ekle(Urun1);
+            sepetManager.Ekle(Urun2);
+            sepetManager.Ekle(Urun3);
 
+            //Console.WriteLine("------Metodlar------");
 
         }
     }
